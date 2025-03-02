@@ -1,0 +1,47 @@
+# ----------------------------------
+# Archivo .gitignore para repositorio con MÚLTIPLES proyectos Android
+# Ubícalo en la raíz del repositorio
+# ----------------------------------
+
+### Android ###
+# Build generados
+**/build/
+**/*.apk
+**/*.ap_
+**/*.aab
+
+# Archivos temporales/IDE
+**/.idea/
+**/*.iml
+**/.gradle/
+**/local.properties
+**/.navigation/
+**/captures/
+**/screenshots/
+
+# Logs y reportes
+**/*.log
+**/lint-results.xml
+
+# Keystores (archivos sensibles)
+**/*.keystore
+**/*.jks
+
+### Sistema operativo ###
+**/.DS_Store
+**/Thumbs.db
+
+### Gradle ###
+!gradle/wrapper/gradle-wrapper.jar
+**/gradle-app.setting
+
+### Archivos generados automáticamente ###
+**/bin/
+**/gen/
+**/out/
+**/*.hprof
+**/*.hprof.index
+
+### Firebase (opcional) ###
+**/google-services.json
+**/google-services.json.enc
